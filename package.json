@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "build:dev": "webpack",
-    "build:prod": "NODE_ENV=prod webpack"
+    "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production"
   },
   "devDependencies": {
     "css-loader": "4.2.2",
